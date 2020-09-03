@@ -550,7 +550,7 @@ export class Topology {
       height = maxHeight + offset;
     }
     this.resize({ width, height });
-    return this;
+    return rect;
   }
 
   private setNodeText() {
